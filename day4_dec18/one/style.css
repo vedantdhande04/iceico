@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(22, 22, 22);
+}
+.content1{
+    display: grid;
+    height: 500px;
+    width: 500px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 10px;
+    margin-right: 10px;
+}
+.one{
+    background-color: rgb(255, 255, 255);
+    grid-area:1/1/span 1 / span 2 ;
+}
+.two{
+    background-color: yellow;
+    grid-area: 2/1/span 1/span 1;
+}
+.three{
+    background-color: rgb(124, 77, 52);
+    grid-area: 2/2/span 1 / span 1;
+}
+
+.round{
+    border-radius: 25px;
+}
+.org{
+    display: flex;
+}
+.content2{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    gap: 10px;
+    width: 245px;
+    height: 500px;
+}
+.four{
+    background-image: url("src/one.jpg");
+    background-size: cover;  
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-area:1/1/ span 2/span 1 ;
+}
+.five{
+    background-color: aliceblue;
+    background-image: url("src/two.jpg");
+    background-size: cover;  
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.one{
+    background-image: url("src/four.jpg");
+    background-size: cover;  
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.two{
+    background-image: url("src/three.jpg");
+    background-size: cover;  
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.three{
+    background-image: url("src/five.jpg");
+    background-size: cover;  
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media only screen and (max-width: 600px) {
+        
+        .container{
+            flex-direction: column;
+        }
+}

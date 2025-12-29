@@ -1,0 +1,7 @@
+Sparse arrays - arrays containing empty elements
+or undefined elements
+suppose a empty array [] is assigned number 10 on
+the fifth index , the first four indexes will be 
+empty
+
+

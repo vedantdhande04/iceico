@@ -1,0 +1,17 @@
+JavaScript Basics
+
+Infinity (or -Infinity) is the value JavaScript will return if you calculate a number outside the largest possible number.
+
+
+
+learnt about js objects
+
+function person(first , last , age){  //this is a constructor function
+    this.firstName = first; 
+    this.lastName = last;
+    this.Age = age;
+}
+
+let human = new person("Vedant","Dhande","21");
+
+console.log(human.firstName)

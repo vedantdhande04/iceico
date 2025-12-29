@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>JS test</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="ico.png">
+</head>
+<body>
+    <div id="main">
+        <h1 id="html">This is HTML</h1>
+        <button onclick="document.getElementById('html').innerText='This is HTML'">HTML</button>
+        <button onclick="document.getElementById('html').style.display='block'">show</button>
+        <button onclick="document.getElementById('html').style.display='none'">hide</button>
+        <button onclick="window.alert('This is a alert.');">alert</button>
+        <button onclick="window.print();">Print this page</button>
+        <table>
+        <tr>
+            <th>Name</th>
+            <th>Surname</th>
+            <th>DOB</th>
+        </tr>
+        <tr>
+            <td>Ved</td>
+            <td>Dhande</td>
+            <td>01/02/2004</td>
+        </tr>
+        <tr>
+            <td>Sarthak</td>
+            <td>Jain</td>
+            <td>01/08/2004</td>
+        </tr>
+    </table>
+    
+    </div>
+    <aside class="sidebar">
+        <ul>
+            <li><a href="">Main</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Services</a></li>
+        </ul>
+    </aside>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+To explore :
+    settimeout
+    fetch
+
+
+🌀Blockchain
+ - JS
+ - git , github
+ - smart contracts
+ - language  
+ - ide = remix for beginners
+ - hardhat local ide for professional dev
+ - DAPP
+ - web3.js

@@ -1,0 +1,73 @@
+JS Topics
+
+
+✅    try catch 
+✅    promises
+✅    async await 
+✅    fetch
+✅    map method
+✅    reduce method
+    json format 
+    JS template
+
+
+
+➡️try catch is used to try the code block once and if
+error occurs , it does not stop the execution but
+runs the catch block and error is logged
+try{
+
+}
+catch(err){
+    console.log(err)
+}
+
+
+➡️promises are used to run block codes parallely , 
+a promise promises fullfillment of the code by either resolving or rejecting
+let promise = new Promise((resolve,reject)=>{
+
+})
+
+promise.then((value)=>{
+    console.log(value)
+})
+promise.catch((error)=>{
+    console.log(error)
+})
+
+➡️any function can be made async and then a promise can be awaited inside it
+async function Name () {
+    x = iski value promise 5 second baad dega
+    y = iski value promise 10 second baad dega
+
+    let xvalue = await x; //ye wait krta rahega and execution
+    idhr hi ruka dega jab tak value nahi aati 
+
+    let yvalue = await y;
+}
+
+
+➡️fetch() is used for fetching a resource from a server
+it is a method that returns a promise and resolves into a response object
+
+
+➡️map() 
+it is a method used to perform a action or function on 
+elements of an existing array and creating a new array which 
+contains the resultant elements of the function
+
+let x = [1,2,3,4]
+let newArr = x.map(Math.sqr)
+
+or 
+
+let totens = (num)=>{
+    return num*10;
+}
+let newArr = x.map(totens);
+
+
+➡️reduce()
+array method
+reduces a array to a single value depending on the function execution

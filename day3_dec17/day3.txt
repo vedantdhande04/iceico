@@ -1,0 +1,36 @@
+JAVASCRIPT
+
+document.getElementById("html").style.display="none" ;
+can be used to hide html elements
+
+placing script tag at the bottom of body tag instead of head tag improves loading speed
+
+document.getElementById("demo").innerHTML = "<h2>Hello World</h2>";
+or innerText
+
+An identifier is the name you give to a variable.
+
+JavaScript identifiers are case sensitive.
+A convention among professional programmers is to start a name with underscore for "private" variables.
+
+
+html
+
+the <hr> tag is used to apply a display line - also known as horizontal rule
+
+
+The HTML <pre> element defines preformatted text.
+<pre>
+    this is 
+    a preformatted
+    text.
+</pre>
+
+
+The type attribute of the <ol> tag, defines the type of the list item marker:
+<ol type="A">
+    <li>
+</ol>
+
+
+

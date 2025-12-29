@@ -1,0 +1,33 @@
+git kraken - best GUI tool
+
+Why command line?
+GUI tool have limitations
+GUI tools not always available
+
+First the changed code goes to the staging area for review
+if everything is correct , we commit
+
+
+➡️ Commands
+
+    git config --global -e 
+    git config --global core.autocrlf true //for windows
+
+    git add => for staging
+    git commit => commmit
+
+    git commit -m "a message"  => used to commit only staged files
+    git commit -a  => commit all files without staging
+    git commit -am "a message"  => commit all files with a message
+
+    best practice is to first stage then commit
+
+    git rm file.txt => to remove/delete a file
+    git mv file1 file2 => rename file1 to file2
+
+    git init
+
+
+    make a .gitignore file to deny tracking of files by git (make sure it is in root)
+    ex- if a directory named "logs" is to be not tracked then 
+        add "logs/" in .gitignore

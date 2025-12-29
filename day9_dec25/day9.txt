@@ -1,0 +1,5 @@
+✅explored audio tag
+✅revisited js basics
+✅array and string iteration
+✅dynamic type checking
+✅type checking in conditional statements

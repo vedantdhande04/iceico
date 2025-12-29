@@ -1,0 +1,59 @@
+display grid practice , with the area property
+
+made a responsive structure of a web page with grid
+
+tips for responsiveness
+1 use relative padding - padding:min(5em , 8%); 
+    this selects the padding which is minimum
+
+2 use responsive font size
+    clamp function : 
+        font-size : clamp (1.8rem , calc(7vw+1rem) , 5rem)
+                            min , preferred and max
+            the example given is for the headings , the calc function
+            is used to keep the header responsive to user  zooming in
+            and out .
+
+3 responsive images
+    aspect-ratio : 9/16;
+    object-fit : cover ;
+
+4 dynamic viewport height
+    100vh might not work on some deviced , so use
+    height : 100dvh
+
+flexbox tools
+
+flex-wrap : wrap;
+flex-shrink: 0 or 1; like a boolean value , can be greater than 1 too
+flex-grow: 0 or 1; like a boolean value , can be greater than 1 too
+
+for logo  - use margin-right:auto
+
+    while other navnar elements are - justify-content:flex-end;
+
+
+
+we can use grid-template-columns: 200px 1fr;
+    for the navbar and content so that the navbar stays 200px
+
+
+
+implicit grids
+    this property is used to handle the dynamic sizing of the elements
+    when new elements are added , 
+    grid-auto-rows:300px
+
+    changes the elements which are added to 300px height
+
+
+horizontal scroller
+    new items added horizontally
+    grid-auto-columns:300px;
+    grid-auto-flow:column;   #the default flow is row
+
+define grid area in html
+    style="grid-area : box-1"
+    style="grid-area : box-2"
+
+

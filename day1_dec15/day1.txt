@@ -1,0 +1,17 @@
+<abbr> tag used to for abbreviations : if we hover around short forms , it displays the long form
+
+<a target="_blank"> used to open the hyperlink into a new tab
+_self - Default. Opens the document in the same window/tab as it was clicked
+_blank - Opens the document in a new window or tab
+
+<a href="mailto:someone@example.com">Send email</a>
+this opens up user's email program to send a new email 
+
+
+title="Go to W3Schools HTML section" , this can be used to display info related to the element
+when the user hovers over the element
+
+iframes are used to display html page inside another html page
+
+
+

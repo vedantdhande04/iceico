@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Bangers&family=Changa+One:ital@0;1&family=Comic+Relief:wght@400;700&family=Lexend+Giga:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: yellow;
+    
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-color: white;
+    border-radius: 20px;
+    margin: 50px;
+    width: 100%;
+    border: 10px solid black;
+    border-top:4px solid black;
+    border-left:4px solid black;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+}
+.flex{
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: calc(100% - 40px);
+    border-radius: 20px;
+    padding: 10px;
+    border: 10px solid black;
+    border-top:4px solid black ;
+    border-left:4px solid black ;  
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Comic Relief", system-ui;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.landing{
+    display: flex;
+    flex-direction: row;
+}
+
+.one{
+    height: 100px;
+}
+.two{
+    height: 200px;
+}
+.three{
+    height: 200px;
+}
+.four{
+    height: 250px;
+}
+
+@media screen and (max-width:768px) {
+    .landing{
+    display: flex;
+    flex-direction: column;
+}
+.two{
+    height: 100px;
+}
+.three{
+    height: 100px;
+}
+}

@@ -1,0 +1,42 @@
+JavaScript
+
+
+Date() not date()
+
+
+document.write() is deprecated 
+
+
+let cannot be redeclared but can be reassigned
+const cannot be redeclared and also cannot be reassigned
+var is outdated (2015)
+
+
+did not completely understand where the LOGICAL ASSIGNMENT OPERATORS can be used
+
+
+The Spread (...) Operator
+The ... operator splits iterables into individual elements.
+
+
+the strings are compaired based on their unicode
+suppose a is greater than z as the unicode is greater in the lowercase
+while the unicode of uppercase A is lower than Z 
+
+
+age = Number(age);
+before any comparisons (best practice to do this upon assignment)
+
+
+ternary operator
+(condition) ? expression1 : expression2
+
+
+The default keyword specifies a block of code to run if there is no case match.
+
+
+Template Strings allow variables in strings.
+Template strings provide an easy way to interpolate variables in strings.
+let text = `Welcome ${firstName}, ${lastName}!`;
+
+

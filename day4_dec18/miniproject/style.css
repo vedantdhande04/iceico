@@ -1,0 +1,19 @@
+*{
+    background-color: rgb(93, 52, 52);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    height: 40vh;
+    width: 80vw;
+    background-color: white;
+}
+
+div{
+    background-color: white;
+
+}
