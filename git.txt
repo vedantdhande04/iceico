@@ -31,3 +31,21 @@ if everything is correct , we commit
     make a .gitignore file to deny tracking of files by git (make sure it is in root)
     ex- if a directory named "logs" is to be not tracked then 
         add "logs/" in .gitignore
+
+    git rm -cached filename  => removes from staging area
+    git rm -h => help related to rm command
+
+    git diff --staged => compares line changes between commited and staged
+    git diff => compars line chnages between working directory and staged
+
+    we can also configure a difftool , such as vscode
+
+
+    git restore --staged filename  => to unstage a file
+
+
+    git restore filename => will undo all the local changes
+
+
+    git restore --source=HEAD~1 file.txt  => restores the file from a commit before the last commit
+    for ex = if you delete the file by mistake
