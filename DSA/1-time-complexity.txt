@@ -1,0 +1,36 @@
+Things to remember
+    1)always calculate TC in the terms of worst case
+    2)ignore constant values
+    3)ignore lower bounnd values
+
+Different types of TC
+
+    Big-oh(O) => worst case[upper bound]
+    Theta => Average case
+    Omega => Best case [lower bound]
+
+Example-1
+    if there are two nested for loops
+    then for time complexity
+
+    for (i loop range 1 to N)
+        for (j loop range 1 to N)
+
+    for each time i loop runs , the j loop runs N time
+    therefore , we can say that if i loop runs 5 times , then 
+    time complexity will be 5N
+    but we can also say that 
+    it  is N*N , therefore 
+    time complexity will be O(N^2)
+
+
+Example-2
+
+    if 
+    1+2+3+4....5N
+    then 
+
+    simplified => N(N+1)/2
+
+    
+

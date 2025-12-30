@@ -7,8 +7,8 @@ JS Topics
 ✅    fetch
 ✅    map method
 ✅    reduce method
-    json format 
-    JS template
+✅    json format 
+✅    JS template
 
 
 
