@@ -1,0 +1,3 @@
+Learned git , refer to git notes in ../GitLearn
+
+Used Lovable to create a website

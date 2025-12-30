@@ -1,3 +1,5 @@
+revisited js basics
+
 Sparse arrays - arrays containing empty elements
 or undefined elements
 suppose a empty array [] is assigned number 10 on
