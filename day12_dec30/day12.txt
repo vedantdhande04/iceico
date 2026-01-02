@@ -92,7 +92,9 @@ You can respond to events by declaring event handler functions inside your compo
 
 
 
-Often, you’ll want your component to “remember” some information and display it. For example, maybe you want to count the number of times a button is clicked. To do this, add state to your component.
+Often, you’ll want your component to “remember” some information and display it. 
+For example, maybe you want to count the number of times a button is clicked. 
+To do this, add state to your component.
 
 First, import useState from React:
 
@@ -101,3 +103,23 @@ Now you can declare a state variable inside your component:
 
     function MyButton() {
       const [count, setCount] = useState(0);
+    
+    ....
+    }
+
+
+
+
+  function MyButton() {
+  const [count, setCount] = useState(0);
+
+  function handleClick() {
+    setCount(count + 1);
+  }
+
+  return (
+    <button onClick={handleClick}>
+      Clicked {count} times
+    </button>
+  );
+}
