@@ -1,0 +1,17 @@
+used vite
+
+npm create vite@latest
+- to create a react app
+
+&copy; to add copyright symbol
+
+
+the react components can only have One 
+parent html element so we enclose them 
+into JSX fragment <> </>
+
+
+React is all about reusing components
+component is a small piece of code which includes js and html
+
+ 
