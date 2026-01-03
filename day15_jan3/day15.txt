@@ -1,0 +1,24 @@
+In react we can have three types of styles
+
+1 . External
+    same as normal external styles
+
+2. modules   - for individual components
+    in this we make a folder for each component
+    inside that a dedicated ss for the component with naming convention 
+    as componentName.module.css
+
+3. internal  - for smaller components
+    const styles ={
+
+    }
+
+    then style ={styles}
+
+
+
+props- read only properties that are shared between components
+    a parent can send prop to its child
+
+
+
