@@ -21,4 +21,24 @@ props- read only properties that are shared between components
     a parent can send prop to its child
 
 
+the key values are passed with the calling of components
 
+PropTypes is used to check whether a prop is of specific 
+types
+we need to inport the proptype module
+
+import PropTypes from 'prop-types'
+
+
+Student.deafaultProps={
+
+    name:"Guest"
+    .
+    .
+    .
+}
+to handle empty objects
+
+incorrect propType will give a console warning
+
+w
