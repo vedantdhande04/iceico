@@ -44,5 +44,8 @@
   height: 300px;
   width: 300px;
   transition: 0.5 ease;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 10px;
 
 }
