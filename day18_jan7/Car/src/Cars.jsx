@@ -14,7 +14,8 @@ const handleModel =(event)=>{
 }
 
 
-    return(<>
+   return(
+        <>
         <h1>Your favourite car is {car.year} {car.Brand} {car.Model}</h1>
         <input type="number" value={car.year} onChange={handleYear} />
         <input type="text" value={car.Brand} onChange={handleBrand} />
