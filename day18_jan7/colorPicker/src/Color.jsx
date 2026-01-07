@@ -11,7 +11,6 @@ return(
     <div>
         <div className="selected-color" style={{backgroundColor:colorValue}}>Selected Color : {colorValue}</div>
         <input type="color" value={colorValue} onChange={HandleColorValue}/>
-   
     </div>
 )
 }
