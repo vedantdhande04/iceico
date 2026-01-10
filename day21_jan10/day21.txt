@@ -1,0 +1,13 @@
+Why Learn React?
+Before React, front-end development struggled with:
+
+Manual DOM Manipulation: Traditional JavaScript directly modified the DOM, slowing down the performance.
+Complex State Management: Maintaining UI state became messy and hard to debug.
+Tight Coupling in Frameworks: Frameworks like Angular introduced complex two-way data binding that made code harder to manage
+
+
+
+React uses Babel (a compiler) to convert JSX into pure JavaScript.
+
+
+
